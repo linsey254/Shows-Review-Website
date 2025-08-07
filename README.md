@@ -3,7 +3,8 @@
 Welcome to CineReviews! This project is a fun, single-page web app built to celebrate the world of movies and TV shows. It's a place for film buffs to browse a catalog of titles, check out what others are saying, and share their own opinions with a simple, interactive review system.
 
 
-🚀 Features That Make It Pop
+
+🚀 Features That Make It Pop:
 
 i. 100% Responsive: No matter the device, from your big screen to your tiny phone, this site looks and works great. 📱💻
 
@@ -24,7 +25,8 @@ viii. Cool Animations: We've added some sweet CSS animations, like a "frosted gl
 ix. No Lost Data: Thanks to local storage, your review form data is automatically saved, so you don't have to worry about losing your work if you refresh the page. 💾
 
 
-🛠️ Tech Stack
+
+🛠️ Tech Stack:
 
 This project is a great example of a classic web development trio working in harmony:
 
@@ -35,7 +37,8 @@ ii. CSS3: The artist that handles all the styling, animations, and responsivenes
 iii. JavaScript (ES6+): The brain that brings all the interactive features to life.
 
 
-🏃 Getting Started
+
+🏃 Getting Started:
 
 ~ It's super easy to get this running!
 
@@ -44,7 +47,8 @@ iii. JavaScript (ES6+): The brain that brings all the interactive features to li
 ~ Open the index.html file in your favorite web browser. That's it!
 
 
-💡 Ideas for the Next Episode
+
+💡 Ideas for the Next Episode:
 
 i. Want to take this project to the next level? Here are a few ideas:
 
