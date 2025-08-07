@@ -1,8 +1,10 @@
 ✨ CineReviews: A Movie & Series Review Website ✨
+
 Welcome to CineReviews! This project is a fun, single-page web app built to celebrate the world of movies and TV shows. It's a place for film buffs to browse a catalog of titles, check out what others are saying, and share their own opinions with a simple, interactive review system.
 
 
 🚀 Features That Make It Pop
+
 100% Responsive: No matter the device, from your big screen to your tiny phone, this site looks and works great. 📱💻
 
 Dynamic Catalog: The site displays movies and series from a simple data list, complete with posters, years, and ratings. 🍿
@@ -23,6 +25,7 @@ No Lost Data: Thanks to local storage, your review form data is automatically sa
 
 
 🛠️ Tech Stack
+
 This project is a great example of a classic web development trio working in harmony:
 
 HTML5: The foundation of the site.
@@ -33,6 +36,7 @@ JavaScript (ES6+): The brain that brings all the interactive features to life.
 
 
 🏃 Getting Started
+
 It's super easy to get this running!
 
 Clone the repository or just download the files.
@@ -41,6 +45,7 @@ Open the index.html file in your favorite web browser. That's it!
 
 
 💡 Ideas for the Next Episode
+
 Want to take this project to the next level? Here are a few ideas:
 
 Connect to a Real API: Instead of sample data, fetch real movie data and posters from a service like the TMDB API.
