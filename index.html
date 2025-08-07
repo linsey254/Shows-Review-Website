@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineReviews - Movie Review Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">
+                    <a href="#home" style="text-decoration: none; color:inherit;">🎬 CineReviews</a>
+                </h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#movies">Movies</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#add-review">Add Review</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Discover Amazing Movies</h2>
+                <p>Read reviews, rate movies, and share your thoughts with fellow movie enthusiasts</p>
+                <button class="cta-button" onclick="scrollToSection('movies')">Browse Movies</button>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search for movies...">
+                    <button onclick="searchMovies()"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movies Grid -->
+        <section id="movies" class="movies-section">
+            <div class="container">
+                <h2>Featured Movies</h2>
+                <div id="movies-grid" class="movies-grid">
+                    <!-- Movies will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews-section">
+            <div class="container">
+                <h2>Latest Reviews</h2>
+                <div id="reviews-container" class="reviews-container">
+                    <!-- Reviews will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Add Review Section -->
+        <section id="add-review" class="add-review-section">
+            <div class="container">
+                <h2>Add Your Review</h2>
+                <form id="review-form" class="review-form">
+                    <div class="form-group">
+                        <label for="movie-title">Movie Title</label>
+                        <input type="text" id="movie-title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewer-name">Your Name</label>
+                        <input type="text" id="reviewer-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rating">Rating</label>
+                        <div class="star-rating">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                        </div>
+                        <input type="hidden" id="rating" value="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="review-text">Your Review</label>
+                        <textarea id="review-text" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Review</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CineReviews. Made with ❤️ for movie lovers.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
